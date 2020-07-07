@@ -4,7 +4,7 @@ type HomeProps = {
   title: string
 }
 
-export default function Home({title = 'React Avançado'}: HomeProps) {
+export default function Home({ title = 'React Avançado' }: HomeProps) {
   return (
     <div className="container">
       <Head>
@@ -13,9 +13,7 @@ export default function Home({title = 'React Avançado'}: HomeProps) {
       </Head>
 
       <main>
-        <h1 className="title">
-          {title}
-        </h1>
+        <h1 className="title">{title}</h1>
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
